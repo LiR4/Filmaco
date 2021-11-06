@@ -24,17 +24,20 @@
                 <p>Pesquisar <i class="fa fa-search" aria-hidden="true"></i></p>
             </li>
             <li>
-                <p>Series</p>
+                <a href="#series"><p>Series</p></a>
             </li>
             <li>
-                <p>Animações</p>
+                <a href="#anima"><p>Animações</p></a>
             </li>
             <li>
-                <p>Filmes</p>
+                <a href="#filmes"><p>Filmes</p></a>
             </li>
         </ul>
     </header>
     <section>
+        <div class="title">
+            <h3>Recomendções</h3>
+        </div>
         <div class="slider">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -50,6 +53,47 @@
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
+        </div>
+        <div class="title">
+            <h3 id="series">Series</h3>
+        </div>
+        <div class="sliderB">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="title">
+            <h3 id="anima">Animações</h3>
+        </div>
+        <div class="sliderB">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+                    <div class="swiper-slide"><img src="/favicon_io (1)/android-chrome-192x192.png" alt=""></div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <div class="title">
+            <h3 id="filmes">Filmes</h3>
         </div>
         <div class="sliderB">
             <div class="swiper mySwiper">
@@ -69,7 +113,7 @@
         </div>
     </section>
     <footer>
-
+        <p>aaaaa</p>
     </footer>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
@@ -79,6 +123,7 @@
             centeredSlides: true,
             spaceBetween: 30,
             grabCursor: true,
+            loop: true,
             keyboard: {
                 enabled: true,
             },
