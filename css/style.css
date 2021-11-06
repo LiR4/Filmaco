@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 /*=====================*/
 
 html {
@@ -20,7 +21,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
     background-color: #191919;
 }
 
@@ -31,7 +32,7 @@ header ul {
 header ul li {
     color: #fff;
     list-style: none;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 
 a {
@@ -39,10 +40,10 @@ a {
     color: inherit;
 }
 
-header i {
-    padding-left: 10px;
-}
+
 /*=======Slides==========*/
+
+
 .slider {
     padding-top: 50px;
 }
@@ -59,7 +60,7 @@ header i {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background-color: #191919a1;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -74,7 +75,6 @@ header i {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    background-color: #191919a1;
 }
 
 .swiper-slide img {
@@ -87,8 +87,8 @@ header i {
 
 /*=======titulos========*/
 
-.title {
-    padding-top: 50px;
+.titu {
+    padding-top: 70px;
     padding-left: 20px;
 }
 
@@ -101,8 +101,66 @@ header i {
 
 /*======footer======*/
 
+
+
 footer {
     background-color: #191919;
-    padding: 30px;
+    padding: 10px;
 }
+
+/*=========grid==========*/
+
+.Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Box {
+    padding: 10px;
+}
+
+/*=======================*/
+
 /*=====================*/
+
+@media (max-width: 700px) {
+    /*=======header=========*/
+    header {
+        padding: 10px;
+    }
+    header img {
+        width: 52px;
+        height: 52px;
+    }
+
+    header ul li {
+        margin: 0 10px;
+    }
+    /*=====================*/
+
+    /*========topicos=======*/
+    
+    .titu {
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+
+    /*======================*/
+
+    /*=========slider=======*/
+    .slider {
+        padding-top: 25px;
+    }
+    .sliderB {
+        padding-top: 30px;
+    }
+    /*=====================*/
+}
+
+@media (max-width: 320px) {
+    header img {
+        width: 32px;
+        height: 32px;
+    }
+
+}
