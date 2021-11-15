@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*====topbar=====*/
+.main {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: rgb(32, 32, 32);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo  {
+  width: 72px;
+  height: 72px;
+}
+
+header .logo img {
+  max-width: 72px;
+  max-height: 72px;
+}
+
+.Top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*==========================*/
+
+/*======caixa do video=======*/
+.Boxx {
+  background-color: rgb(41, 40, 40);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+video {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+}
+/*============================*/
+
+/*=====Informações======*/
+
+.Info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.BoxInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  flex-direction: column;
+  padding: 0 130px;
+  color: #fff;
+}
+
+.BoxInfo h2 {
+  color: rgb(247, 40, 40);;
+}
+/*=============================*/
+
+/*=====footer================*/
+.Grid {
+  display: grid;
+  padding: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(41, 40, 40);
+  color: #fff;
+}
+
+.Grid .box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.box a{
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+.box a:hover{
+  color: #fff;
+  opacity: 0.5;
+}
+
+.box ul li i {
+  color: #fff;
+}
+
+/*=========================*/
+
+@media (max-width: 1160px) {
+  video{
+    width: 800px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  
+  header {
+    background-color: rgb(32, 32, 32);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .logo img {
+    max-width: 62px;
+    max-height: 62px;
+  }
+
+
+  video{
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  video{
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .BoxInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: column;
+    padding: 0 65px;
+    color: #fff;
+  }
+}
