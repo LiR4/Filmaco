@@ -58,10 +58,7 @@ header .logo img {
   padding: 10px;
 }
 
-video {
-  border: 1px solid transparent;
-  border-radius: 1rem;
-}
+
 /*============================*/
 
 /*=====Informações======*/
@@ -86,6 +83,12 @@ video {
 
 .BoxInfo h2 {
   color: rgb(247, 40, 40);;
+}
+
+.BoxInfo a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
 }
 /*=============================*/
 
